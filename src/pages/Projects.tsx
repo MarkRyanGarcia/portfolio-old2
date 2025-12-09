@@ -16,6 +16,15 @@ interface Project {
 export default function Projects() {
     const projects: Project[] = [
         {
+            title: 'Sudoku Solver',
+            description: 'Enter your own puzzle or generate a new one, choose an algorithm, and watch the solution unfold step-by-step.',
+            image_path: '/ProjectImages/sudoku.png',
+            links: {
+                Github: 'https://github.com/MarkRyanGarcia/cpsc481-sudoku',
+                Deployment: 'https://sudoku.markg.dev/',
+            }
+        },
+        {
             title: 'DoodleJump Workshop',
             description: 'As part of a beginner-friendly Unity workshop I led, I developed a 2D platformer game inspired by Doodle Jump to teach the fundamentals of game development using Unity and C#.',
             image_path: '/ProjectImages/doodlejump1.png',
