@@ -49,7 +49,7 @@ export default function About() {
                             <Button
                                 startIcon={<ContactPage />}
                                 variant="outlined"
-                                href="https://github.com/MarkRyanGarcia/Resume/blob/main/resume.pdf"
+                                href="https://docs.google.com/viewerng/viewer?url=https://raw.githubusercontent.com/MarkRyanGarcia/Resume/main/Mark_Garcia_Resume.pdf"
                                 target="_blank"
                             >
                                 Check out my Resume
